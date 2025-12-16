@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/agent-manual-site/',
   title: "超站操作手册",
   description: "Default Theme",
   themeConfig: {
