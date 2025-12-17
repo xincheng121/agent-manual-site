@@ -4,18 +4,15 @@ layout: home
 
 hero:
   name: "超站操作手册"
-  text: "Default Theme"
-  tagline: My great project tagline
+  text: "高效落地 AI 业务流"
+  tagline: "从 AI 对练到商机捕捉，全流程智能化操作指南"
   actions:
-    actions:
+    # 之前这里多写了一行 actions: 导致报错，已修正
     - theme: brand
-      text: 开始阅读操作手册   # <--- C位按钮：现在是操作手册了！
-      link: /manual           # <--- 链接指向你的手册
+      text: 开始阅读操作手册
+      link: /manual
     - theme: alt
-      text: Markdown 示例     # <--- 次要按钮：原本的Examples放到了后面
-      link: /markdown-examples
-    - theme: alt
-      text: API 示例          # <--- 次要按钮
+      text: API 示例
       link: /api-examples
     - theme: alt
       text: 访问 GitHub
@@ -28,5 +25,3 @@ features:
     details: 基于 AI 大数据分析，精准捕捉并实时推送潜在的高价值商业机会。
   - title: 智能体应用
     details: 探索多种功能强大的 AI Agent，实现自动化工作流与智能辅助决策。
----
-
